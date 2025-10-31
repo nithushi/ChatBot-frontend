@@ -5,8 +5,6 @@ This project is the React + Vite frontend for a simple AI chatbot. It provides a
 ## 📸 Project Screenshot
 <img width="1920" height="1057" alt="screencapture-localhost-5173-2025-10-31-21_56_49" src="https://github.com/user-attachments/assets/bcdc853f-9565-458d-afb4-85b5b4528ef9" />
 
-*(To display an image here, create an `assets` folder in the root of this project and add a screenshot named `demo.png`.)*
-
 ## Features
 
 * A simple, clean chat window.
