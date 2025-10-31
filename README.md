@@ -1,16 +1,47 @@
-# React + Vite
+<img width="1920" height="1057" alt="screencapture-localhost-5173-2025-10-31-21_56_49" src="https://github.com/user-attachments/assets/d6146e0a-f8cb-453f-9aed-aea96e8cd046" /># 🤖 ChatBot Frontend (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is the React + Vite frontend for a simple AI chatbot. It provides a clean user interface for interacting with the chatbot backend.
 
-Currently, two official plugins are available:
+## 📸 Project Screenshot
+<img width="1920" height="1057" alt="screencapture-localhost-5173-2025-10-31-21_56_49" src="https://github.com/user-attachments/assets/bcdc853f-9565-458d-afb4-85b5b4528ef9" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*(To display an image here, create an `assets` folder in the root of this project and add a screenshot named `demo.png`.)*
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* A simple, clean chat window.
+* Sends user messages to the backend API (`http://localhost:8080/api/chat`).
+* Displays messages from both the "user" and the "bot" in different styles.
+* Automatically scrolls to the newest message.
+* Styled using **Bootstrap**.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **React**
+* **Vite**
+* **Axios** (for API requests)
+* **Bootstrap** (for styling)
+
+## 🚀 How to Run
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [YOUR_REPOSITORY_URL]
+    cd ChatBot-frontend
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+
+4.  The application will be available at `http://localhost:5173` (or another port if 5173 is busy).
+
+## ❗Prerequisite
+
+This frontend application **requires the `ChatBot-backend` project to be running** at `http://localhost:8080` to function correctly, as the API URL is hardcoded in the `Chatbot.jsx` component.
